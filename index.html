@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CH-52</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>CH-52 manipulation image and text </h1>
+        <p id="para1">This is the initial paragraph</p>
+        <div id="control">
+            <input type="text" id="inputText" placeholder="enter some text" >
+            <button id="btn1">add text</button>
+
+        </div>
+        <div id="img-id">
+            <button id="btn2" onclick="toggle()">Toggle</button>
+            <button id="btn3" onclick="hideimg()"> hide image</button>
+            <button id="btn4" onclick="visible()"> display</button>
+           
+        </div>
+        <img src="img1.jpg" alt="" id="image" style="width: 10%;" height="10%">
+
+        <p id="output"></p>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
